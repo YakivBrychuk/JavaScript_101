@@ -41,3 +41,35 @@ to assign a variable we use operator '='
 'let test;
 test = 1;
 console.log(test);'
+
+'// Declaring Variable
+let test;
+// Assing value to the Variable 
+test = 1;
+console.log(test); 
+
+// Reassign a value to a variable
+
+let num = 0;
+console.log(num);
+num = 2;
+console.log(num);
+
+
+// Assign the value of another variable
+
+let numOne = 5;
+let numTwo = numOne;
+console.log(numTwo);'
+
+
+# Creating Variables with 'const'
+ - difference between the two is that you can not assign a new value to a variable that was created with const.
+ - You cannot declare a const variable without assigning it a value immediately.
+
+
+But, why should you use const instead of let?
+
+It is considered good practice to use const for variables whoose value will never change.
+
+'const pi = 3.14159;'
