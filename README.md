@@ -2,4 +2,4 @@
 
 ## JavaScript Basics
  - Hello World 
-
+ - Variables 
