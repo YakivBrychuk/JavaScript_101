@@ -1,5 +1,8 @@
 # Welcome to crash course of JavaScrip 
 
-## JavaScript Basics
+## Index 
+### [JavaScript Basics](JS_Basics): 
+
  - Hello World 
- - Variables 
+ - [Variables](Variables) 
+ - Booleans 

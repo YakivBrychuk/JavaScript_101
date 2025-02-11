@@ -42,25 +42,25 @@ to assign a variable we use operator '='
 test = 1;
 console.log(test);'
 
-'// Declaring Variable
+```// Declaring Variable
 let test;
 // Assing value to the Variable 
 test = 1;
-console.log(test); 
+console.log(test); ```
 
 // Reassign a value to a variable
 
-let num = 0;
+```let num = 0;
 console.log(num);
 num = 2;
-console.log(num);
+console.log(num);```
 
 
 // Assign the value of another variable
 
-let numOne = 5;
+```let numOne = 5;
 let numTwo = numOne;
-console.log(numTwo);'
+console.log(numTwo);```
 
 
 # Creating Variables with 'const'
@@ -72,4 +72,40 @@ But, why should you use const instead of let?
 
 It is considered good practice to use const for variables whoose value will never change.
 
-'const pi = 3.14159;'
+```const pi = 3.14159;```
+
+
+
+### Booleans are true or false values
+### They are used to make decisions in code
+
+```let isOnSale = true;
+console.log(isOnSale);
+isOnSale = false;
+console.log(isOnSale); 
+```
+### Booleans are true or false values
+### They are used to make decisions in code
+
+```let isOnSale = true;
+console.log(isOnSale);
+isOnSale = false;
+console.log(isOnSale);
+```
+
+### Examples of truthy values
+
+```console.log(Boolean(100)); // true
+console.log(Boolean("Hello")); // true
+console.log(Boolean([])); // true
+console.log(Boolean({})); // true```
+
+
+### Examples of falsy values
+
+
+```console.log(Boolean(0)); // false
+console.log(Boolean("")); // false
+console.log(Boolean(null)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean(NaN)); // false ```
