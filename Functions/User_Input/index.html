@@ -7,8 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="myH1"></h1>
-    <p id="myP"></p>
+    <h2>User Data Management</h2>
+    <div id="formContainer">
+        <label for="nameInput">
+            Name:
+        </label>
+        <input type="text" id="nameInput" placeholder="Enter Name...">
+        <label for="emailInput">
+            Email ID:
+        </label>
+        <input type="email" id="emailInput" placeholder="Enter Email...">
+        <label for="numberInput">
+            Mobile Details:
+        </label>
+        <input type="text" id="numberInput" placeholder="Enter Mobile Details...">
+        <label for="addressInput">
+            Address:
+        </label>
+        <textarea id="addressInput" placeholder="Enter Address..."></textarea>
+        <br>
+        <button onclick="addData()">Add</button>
+    </div>
+
+    <table id="outputTable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile Details</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </table>
     <script src="User_Input.js"></script>
 </body>
 </html>
